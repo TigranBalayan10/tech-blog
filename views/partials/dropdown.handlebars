@@ -1,0 +1,8 @@
+<div>
+  <select class="form-select" id="tag">
+    <option disabled>Product Tags</option>
+    {{#each Tags as |tag|}}
+    <option value="{{tag.id}}" id="drop-down-tag">{{tag.tag_name}}</option>
+    {{/each}}
+  </select>
+</div>

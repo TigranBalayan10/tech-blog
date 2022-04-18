@@ -1,0 +1,63 @@
+body {
+
+  background-image: url("../media/background.svg");
+  background-size: cover;
+  height: 100vh;
+}
+.nav-bar {
+  background-color: rgba(10, 0, 140, 0.8);
+  padding: 20px 0 20px 0;
+}
+
+#card-op {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card-dashboard {
+  background: -webkit-gradient(
+    radial,
+    50.52% 50%,
+    0,
+    50.52% 50%,
+    593.47,
+    color-stop(0, rgba(207, 209, 210, 1)),
+    color-stop(1, rgba(0, 104, 55, 1))
+  );
+}
+
+.sign-up-a {
+  text-decoration: none;
+}
+
+#sign-up {
+  display: inline-block;
+}
+
+.nav-bar-dash {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px 0 20px 0;
+}
+
+.sizing {
+  height: 650px;
+}
+
+#myBarChart {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.tag-text {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: -15px;
+}
+
+#product-edit-btn {
+  width: 60px;
+  height: 45px;
+}
+
+.expense-bg {
+  background-color: rgba(255, 255, 255, 0.4);
+}
